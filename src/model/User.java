@@ -1,7 +1,8 @@
 package model;
 
 public class User {
-	private String name;
+	
+private String name;
 	private int age;
 	private int salary;
 
@@ -30,4 +31,8 @@ public class User {
 		this.salary = salary;
 	}
 
+	@Override
+	public String toString() {
+		return "User [name=" + name + ", age=" + age + ", salary=" + salary + "]";
+	}
 }
